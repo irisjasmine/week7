@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(92, 92, 165, 0.826);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+#posts-container {
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.post-title {
+  text-transform: capitalize;
+}
+
+.post-title h2 {
+  border-bottom: 2px solid white;
+}
+.post-title-container {
+  display: inline;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.329);
+}
+
+deletebutton {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.329);
+}
+
+updatebutton {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.329);
+}
